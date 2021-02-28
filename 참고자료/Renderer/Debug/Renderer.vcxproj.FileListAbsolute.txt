@@ -1,0 +1,4 @@
+C:\Users\asasa\Desktop\Github\SoftwareRenderer\Reference\Renderer\Renderer\Debug\Renderer.exe
+C:\Users\asasa\Desktop\Github\SoftwareRenderer\Reference\Renderer\Renderer\Debug\Renderer.pdb
+C:\Users\asasa\Desktop\Github\SoftwareRenderer\Reference\Renderer\Debug\Renderer.exe
+C:\Users\asasa\Desktop\Github\SoftwareRenderer\Reference\Renderer\Debug\Renderer.pdb

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\core">
+      <UniqueIdentifier>{210b99dd-f5b0-4578-82b8-9ed8af1ebfea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\platforms">
+      <UniqueIdentifier>{7c435b9d-e33e-4f30-8b9c-4e1af737b289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\scenes">
+      <UniqueIdentifier>{5f32c98a-1b33-4fed-a914-a9374342314d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\shaders">
+      <UniqueIdentifier>{c723e597-e16c-4c33-92bb-2e272e4b6d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\tests">
+      <UniqueIdentifier>{a855c865-1f36-4971-a85d-bead1b94942c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\core\api.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\camera.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\darray.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\draw2d.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\graphics.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\image.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\macro.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\maths.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\mesh.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\platform.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\private.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\skeleton.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\texture.h">
+      <Filter>소스 파일\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\blinn_scenes.h">
+      <Filter>소스 파일\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\pbr_scenes.h">
+      <Filter>소스 파일\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scenes\scene_helper.h">
+      <Filter>소스 파일\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shaders\blinn_shader.h">
+      <Filter>소스 파일\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shaders\cache_helper.h">
+      <Filter>소스 파일\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shaders\pbr_shader.h">
+      <Filter>소스 파일\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shaders\skybox_shader.h">
+      <Filter>소스 파일\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tests\test_blinn.h">
+      <Filter>소스 파일\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tests\test_helper.h">
+      <Filter>소스 파일\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tests\test_pbr.h">
+      <Filter>소스 파일\tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\camera.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\darray.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\draw2d.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\graphics.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\image.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\mesh.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\private.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\skeleton.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\texture.c">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platforms\win32.c">
+      <Filter>소스 파일\platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\blinn_scenes.c">
+      <Filter>소스 파일\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\pbr_scenes.c">
+      <Filter>소스 파일\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scenes\scene_helper.c">
+      <Filter>소스 파일\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shaders\blinn_shader.c">
+      <Filter>소스 파일\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shaders\cache_helper.c">
+      <Filter>소스 파일\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shaders\pbr_shader.c">
+      <Filter>소스 파일\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shaders\skybox_shader.c">
+      <Filter>소스 파일\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tests\test_blinn.c">
+      <Filter>소스 파일\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tests\test_helper.c">
+      <Filter>소스 파일\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tests\test_pbr.c">
+      <Filter>소스 파일\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+C:\Users\asasa\Desktop\Github\SimpleRenderer\참고자료\g-matrix3d-neo\Debug\g-matrix3d-neo.exe
+C:\Users\asasa\Desktop\Github\SimpleRenderer\참고자료\g-matrix3d-neo\Debug\g-matrix3d-neo.pdb
+C:\Users\asasa\Desktop\SoftwareRenderingReference\g-matrix3d-neo\Debug\g-matrix3d-neo.exe
+C:\Users\asasa\Desktop\SoftwareRenderingReference\g-matrix3d-neo\Debug\g-matrix3d-neo.pdb

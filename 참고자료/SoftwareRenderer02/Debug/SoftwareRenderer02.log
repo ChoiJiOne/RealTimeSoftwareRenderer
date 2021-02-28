@@ -1,0 +1,24 @@
+﻿  Box.cpp
+  LineClipper.cpp
+  ObjData.cpp
+  PolyClipper.cpp
+  Random.cpp
+C:\Users\asasa\Desktop\Github\SoftwareRenderer\Reference\SoftwareRenderer02\src\Random.cpp(141,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  VertexProcessor.cpp
+  코드를 생성하고 있습니다...
+Box.obj : error LNK2019: _SDL_FreeSurface_SDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Box.obj : error LNK2019: _SDL_ConvertSurface_SDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Box.obj : error LNK2019: _SDL_CreateWindow_SDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Box.obj : error LNK2019: _SDL_GetWindowSurface_SDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Box.obj : error LNK2019: _SDL_UpdateWindowSurface_SDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Box.obj : error LNK2019: _SDL_DestroyWindow_SDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Box.obj : error LNK2019: _SDL_WaitEvent_SDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Box.obj : error LNK2019: _SDL_Init_SDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Box.obj : error LNK2019: _SDL_Quit_SDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
+Box.obj : error LNK2019: _IMG_Load_SDL_main 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+lib\SDL2.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+lib\SDL2_image.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+lib\SDL2main.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+lib\SDL2test.lib : warning LNK4272: 'x64' 라이브러리 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\asasa\Desktop\Github\SoftwareRenderer\Reference\SoftwareRenderer02\Debug\SoftwareRenderer02.exe : fatal error LNK1120: 11개의 확인할 수 없는 외부 참조입니다.

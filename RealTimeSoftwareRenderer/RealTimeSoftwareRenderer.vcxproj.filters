@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Library\stb_image">
+      <UniqueIdentifier>{b150e64e-5d9e-4783-a73e-9102dcfdeab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Engine">
+      <UniqueIdentifier>{9b6dd907-88a8-4405-a607-fb09b47723de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\stb_image\stb.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_c_lexer.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_connected_components.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_divide.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_ds.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_dxt.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_easy_font.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_herringbone_wang_tile.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_image.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_image_resize.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_image_write.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_include.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_leakcheck.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_perlin.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_rect_pack.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_sprintf.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_textedit.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_tilemap_editor.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_truetype.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_voxel_render.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stretchy_buffer.h">
+      <Filter>Library\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framebuffer.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rasterizer.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vertex.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\stb_image\stb_image.cpp">
+      <Filter>Library\stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stb_image\stb_vorbis.c">
+      <Filter>Library\stb_image</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framebuffer.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rasterizer.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
