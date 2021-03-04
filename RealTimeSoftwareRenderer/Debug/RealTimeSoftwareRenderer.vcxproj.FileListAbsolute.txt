@@ -1,2 +1,1 @@
 C:\Users\asasa\Desktop\Github\RealTimeSoftwareRenderer\RealTimeSoftwareRenderer\Debug\RealTimeSoftwareRenderer.exe
-C:\Users\asasa\Desktop\Github\RealTimeSoftwareRenderer\RealTimeSoftwareRenderer\Debug\RealTimeSoftwareRenderer.pdb

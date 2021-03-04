@@ -3,13 +3,13 @@
 #include <fstream>
 #include <sstream>
 #include <cassert>
-
+#include "Vector.h"
 #include "Model.h"
 
 Model::Model(const char* filename)
 {
 	std::ifstream fileStream;
-	std::string   readLine;
+	std::string readLine;
 	char type, trash;
 
 	fileStream.open(filename, std::ifstream::in);
@@ -25,28 +25,28 @@ Model::Model(const char* filename)
 
 		if (!readLine.compare(0, 2, "v "))
 		{
-			Vec3f v;
+			Vector3f v;
 
 			iss >> type >> v.x >> v.y >> v.z;
-			m_Positions.push_back(v);
+			m_Position.push_back(v);
 		}
 		else if (!readLine.compare(0, 3, "vn "))
 		{
-			Vec3f n;
+			Vector3f n;
 
 			iss >> type >> type >> n.x >> n.y >> n.z;
-			m_Normals.push_back(n);
+			m_Normal.push_back(n);
 		}
 		else if (!readLine.compare(0, 3, "vt "))
 		{
-			Vec3f t;
+			Vector3f t;
 
 			iss >> type >> type >> t.x >> t.y >> t.z;
-			m_Textures.push_back(t);
+			m_Texture.push_back(t);
 		}
 		else if (!readLine.compare(0, 2, "f "))
 		{
-			if (m_Textures.size() == 0)
+			if (m_Texture.size() == 0)
 			{
 				std::vector<Vertex> vertices;
 				int iv;
@@ -64,12 +64,12 @@ Model::Model(const char* filename)
 					--iv;
 					--inorm;
 
-					vertices.push_back(Vertex(m_Positions[iv], m_Normals[inorm], Vec3f(0.0f, 0.0f, 0.0f)));
+					vertices.push_back(Vertex(m_Position[iv], m_Normal[inorm]));
 				}
 
 				m_Face.push_back(vertices);
 			}
-			else if (m_Normals.size() == 0)
+			else if (m_Normal.size() == 0)
 			{
 				std::vector<Vertex> vertices;
 				int iv;
@@ -87,7 +87,7 @@ Model::Model(const char* filename)
 					--iv;
 					--iuv;
 
-					vertices.push_back(Vertex(m_Positions[iv], Vec3f(0.0f, 0.0f, 0.0f), m_Textures[iuv]));
+					vertices.push_back(Vertex(m_Position[iv], Vector3f(0.0f, 0.0f, 0.0f), m_Texture[iuv]));
 				}
 
 				m_Face.push_back(vertices);
@@ -113,7 +113,7 @@ Model::Model(const char* filename)
 					--iuv;
 					--inorm;
 
-					vertices.push_back(Vertex(m_Positions[iv], m_Normals[inorm], m_Textures[iuv]));
+					vertices.push_back(Vertex(m_Position[iv], m_Normal[inorm], m_Texture[iuv]));
 				}
 
 				m_Face.push_back(vertices);
@@ -127,26 +127,46 @@ Model::~Model()
 
 }
 
-Vec3f Model::GetPosition(int index)
+int Model::CountOfPosition(void) const
 {
-	assert(0 <= index && index < m_Positions.size());
-	return m_Positions[index];
+	return static_cast<int>(m_Position.size());
 }
 
-Vec3f Model::GetNormal(int index)
+int Model::CountOfNormal(void)   const
 {
-	assert(0 <= index && index < m_Normals.size());
-	return m_Normals[index];
+	return static_cast<int>(m_Normal.size());
 }
 
-Vec3f Model::GetTexture(int index)
+int Model::CountOfTexture(void)  const
 {
-	assert(0 <= index && index < m_Textures.size());
-	return m_Textures[index];
+	return static_cast<int>(m_Texture.size());
 }
 
-std::vector<Vertex> Model::GetFace(int index)
+int Model::CountOfFace(void) const
 {
-	assert(0 <= index && index < m_Face.size());
-	return m_Face[index];
+	return static_cast<int>(m_Face.size());
+}
+
+Vector3f Model::GetPosition(int idx)
+{
+	assert(0 <= idx && idx < m_Position.size());
+	return m_Position[idx];
+}
+
+Vector3f Model::GetNormal(int idx)
+{
+	assert(0 <= idx && idx < m_Normal.size());
+	return m_Normal[idx];
+}
+
+Vector3f Model::GetTexture(int idx)
+{
+	assert(0 <= idx && idx < m_Texture.size());
+	return m_Texture[idx];
+}
+
+std::vector<Vertex> Model::GetFace(int idx)
+{
+	assert(0 <= idx && idx < m_Face.size());
+	return m_Face[idx];
 }

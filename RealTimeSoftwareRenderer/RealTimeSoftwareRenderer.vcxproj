@@ -139,10 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\Framebuffer.h" />
+    <ClInclude Include="src\Color.h" />
+    <ClInclude Include="src\DIBSection.h" />
+    <ClInclude Include="src\Engine.h" />
+    <ClInclude Include="src\FlatShader.h" />
+    <ClInclude Include="src\Geometry.h" />
+    <ClInclude Include="src\GouraudShader.h" />
+    <ClInclude Include="src\Image.h" />
     <ClInclude Include="src\Math.h" />
+    <ClInclude Include="src\Matrix.h" />
+    <ClInclude Include="src\Matrix2x2.h" />
+    <ClInclude Include="src\Matrix3x3.h" />
+    <ClInclude Include="src\Matrix4x4.h" />
     <ClInclude Include="src\Model.h" />
-    <ClInclude Include="src\Rasterizer.h" />
+    <ClInclude Include="src\Rasterization.h" />
     <ClInclude Include="src\stb_image\stb.h" />
     <ClInclude Include="src\stb_image\stb_connected_components.h" />
     <ClInclude Include="src\stb_image\stb_c_lexer.h" />
@@ -164,18 +174,37 @@
     <ClInclude Include="src\stb_image\stb_truetype.h" />
     <ClInclude Include="src\stb_image\stb_voxel_render.h" />
     <ClInclude Include="src\stb_image\stretchy_buffer.h" />
+    <ClInclude Include="src\Timer.h" />
+    <ClInclude Include="src\Transform.h" />
     <ClInclude Include="src\Vector.h" />
+    <ClInclude Include="src\Vector2.h" />
+    <ClInclude Include="src\Vector3.h" />
+    <ClInclude Include="src\Vector4.h" />
     <ClInclude Include="src\Vertex.h" />
-    <ClInclude Include="src\Win32.h" />
+    <ClInclude Include="src\WindowApplication.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Framebuffer.cpp" />
+    <ClCompile Include="src\Color.cpp" />
+    <ClCompile Include="src\DIBSection.cpp" />
+    <ClCompile Include="src\Engine.cpp" />
+    <ClCompile Include="src\FlatShader.cpp" />
+    <ClCompile Include="src\Geometry.cpp" />
+    <ClCompile Include="src\GouraudShader.cpp" />
+    <ClCompile Include="src\Image.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Matrix2x2.cpp" />
+    <ClCompile Include="src\Matrix3x3.cpp" />
+    <ClCompile Include="src\Matrix4x4.cpp" />
     <ClCompile Include="src\Model.cpp" />
-    <ClCompile Include="src\Rasterizer.cpp" />
+    <ClCompile Include="src\Rasterization.cpp" />
     <ClCompile Include="src\stb_image\stb_image.cpp" />
     <ClCompile Include="src\stb_image\stb_vorbis.c" />
-    <ClCompile Include="src\Win32.cpp" />
+    <ClCompile Include="src\Timer.cpp" />
+    <ClCompile Include="src\Trasnform.cpp" />
+    <ClCompile Include="src\Vector2.cpp" />
+    <ClCompile Include="src\Vector3.cpp" />
+    <ClCompile Include="src\Vector4.cpp" />
+    <ClCompile Include="src\WindowApplication.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

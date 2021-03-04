@@ -80,25 +80,70 @@
     <ClInclude Include="src\stb_image\stretchy_buffer.h">
       <Filter>Library\stb_image</Filter>
     </ClInclude>
-    <ClInclude Include="src\Framebuffer.h">
+    <ClInclude Include="src\Color.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DIBSection.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FlatShader.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Geometry.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GouraudShader.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Image.h">
       <Filter>Source\Engine</Filter>
     </ClInclude>
     <ClInclude Include="src\Math.h">
       <Filter>Source\Engine</Filter>
     </ClInclude>
+    <ClInclude Include="src\Matrix.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Matrix2x2.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Matrix3x3.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Matrix4x4.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
     <ClInclude Include="src\Model.h">
       <Filter>Source\Engine</Filter>
     </ClInclude>
-    <ClInclude Include="src\Rasterizer.h">
+    <ClInclude Include="src\Rasterization.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timer.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transform.h">
       <Filter>Source\Engine</Filter>
     </ClInclude>
     <ClInclude Include="src\Vector.h">
       <Filter>Source\Engine</Filter>
     </ClInclude>
+    <ClInclude Include="src\Vector2.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector3.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector4.h">
+      <Filter>Source\Engine</Filter>
+    </ClInclude>
     <ClInclude Include="src\Vertex.h">
       <Filter>Source\Engine</Filter>
     </ClInclude>
-    <ClInclude Include="src\Win32.h">
+    <ClInclude Include="src\WindowApplication.h">
       <Filter>Source\Engine</Filter>
     </ClInclude>
   </ItemGroup>
@@ -109,20 +154,62 @@
     <ClCompile Include="src\stb_image\stb_vorbis.c">
       <Filter>Library\stb_image</Filter>
     </ClCompile>
-    <ClCompile Include="src\Framebuffer.cpp">
+    <ClCompile Include="src\Color.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DIBSection.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FlatShader.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Geometry.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GouraudShader.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Image.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Matrix2x2.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Matrix3x3.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Matrix4x4.cpp">
       <Filter>Source\Engine</Filter>
     </ClCompile>
     <ClCompile Include="src\Model.cpp">
       <Filter>Source\Engine</Filter>
     </ClCompile>
-    <ClCompile Include="src\Rasterizer.cpp">
+    <ClCompile Include="src\Rasterization.cpp">
       <Filter>Source\Engine</Filter>
     </ClCompile>
-    <ClCompile Include="src\Win32.cpp">
+    <ClCompile Include="src\Timer.cpp">
       <Filter>Source\Engine</Filter>
     </ClCompile>
-    <ClCompile Include="src\main.cpp">
-      <Filter>Source</Filter>
+    <ClCompile Include="src\Trasnform.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector2.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector3.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector4.cpp">
+      <Filter>Source\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowApplication.cpp">
+      <Filter>Source\Engine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
